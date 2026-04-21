@@ -1,0 +1,19 @@
+# Java / NetBeans / build outputs
+**/build/
+**/dist/
+**/out/
+**/target/
+**/*.class
+**/*.jar
+
+# Photoshop / design binaries (store separately if needed)
+**/*.psd
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
