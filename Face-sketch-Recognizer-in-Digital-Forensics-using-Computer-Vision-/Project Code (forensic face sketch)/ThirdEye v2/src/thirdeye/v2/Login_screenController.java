@@ -75,7 +75,7 @@ public class Login_screenController implements Initializable {
     private static final String SMTP_HOST = "smtp.gmail.com";
     private static final String SMTP_PORT = "587";
     private static final String EMAIL_FROM = "srdisposals@gmail.com";
-    private static final String EMAIL_PASSWORD = "uxolxpfrxjyrbkqd"; // USE ENVIRONMENT VARIABLE IN PRODUCTION
+    private static final String EMAIL_PASSWORD = System.getenv("EMAIL_PASS"); // USE ENVIRONMENT VARIABLE IN PRODUCTION
     
     public Login_screenController() {
         conn = connectdb.ConnectDB();
